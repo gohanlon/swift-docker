@@ -174,7 +174,7 @@ likely countless other similarly unintuitive errors):
 ## Build and push to Docker Hub
 
 ``` bash
-% DOCKERHUB_USER=gohanlon
+% export DOCKERHUB_USER=gohanlon
 % docker buildx build \
   --progress=plain \
   --platform linux/arm64/v8,linux/amd64 \
