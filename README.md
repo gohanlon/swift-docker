@@ -1,12 +1,9 @@
 # gohanlon/swift-docker
 
-* If you can use Ubuntu 20.04 (focal) images, use the **official** Swift Docker Hub repo: [https://hub.docker.com/_/swift/](https://hub.docker.com/_/swift/)
-* If you need Ubuntu 22.04 (jammy) and can use the Swift nightly-main builds, use the **official** Docker Hub repo for Swift nightly-main builds: [https://hub.docker.com/r/swiftlang/swift](https://hub.docker.com/r/swiftlang/swift)
-* If you need both Ubuntu 22.04 (jammy) and Swift 5.6.2, only then consider trying these images: [https://hub.docker.com/r/gohanlon/swift](https://hub.docker.com/r/gohanlon/swift)
-
-**Important note:** Given that Swift nightly-main builds have support for Ubuntu
-22.04 (jammy), it seems likely that Swift 5.7 will have official support for
-22.04 when it's released.
+> [!IMPORTANT]
+> * For Ubuntu 20.04 (focal) images, use the official [Swift Docker Hub repository](https://hub.docker.com/_/swift/).
+> * Starting with Swift 5.7.2, the official [Swift Docker Hub repository](https://hub.docker.com/_/swift/) includes images for Ubuntu 22.04 (jammy).
+> * If you need both Ubuntu 22.04 (jammy) and Swift 5.6.2, only then consider trying these images: [https://hub.docker.com/r/gohanlon/swift](https://hub.docker.com/r/gohanlon/swift)
 
 # Overview
 
